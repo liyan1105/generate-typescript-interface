@@ -1,16 +1,17 @@
 # generate-typescript-interface
 
-[Visual Studio Marketplace v0.0.1](https://marketplace.visualstudio.com/items?itemName=liyan1105.generatetypescriptinterface)
-
 covert java data type to typescript interface.
+Marketplace Link - https://marketplace.visualstudio.com/items?itemName=liyan1105.generatetypescriptinterface
 
-## Features
-
-- 1.support array type
-- 2.and so on
+![](https://user-images.githubusercontent.com/41133584/71400570-25e7a080-261f-11ea-81a2-6c8216cf094b.gif)
 
 ## Usage
 
-select the code, press <mark>CTRL+SHIFT+P</mark> to show all commands, and run <mark>Ts Generate</mark>.
+Select the code, press `CTRL+SHIFT+P` to show all commands, and run `Ts Generate`.
+
+## Features
+
+- support array type
+- and so on
 
 **Enjoy!**
