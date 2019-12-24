@@ -13,12 +13,4 @@ covert java data type to typescript interface.
 
 select the code, press <mark>CTRL+SHIFT+P</mark> to show all commands, and run <mark>Ts Generate</mark>.
 
-## Release Notes
-
-### 0.0.1
-
-Initial release of ...
-
----
-
 **Enjoy!**
