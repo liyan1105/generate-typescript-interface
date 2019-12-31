@@ -1,6 +1,7 @@
 # generate-typescript-interface
 
 covert java data type to typescript interface.
+
 Marketplace Link - https://marketplace.visualstudio.com/items?itemName=liyan1105.generatetypescriptinterface
 
 ![](https://user-images.githubusercontent.com/41133584/71400570-25e7a080-261f-11ea-81a2-6c8216cf094b.gif)

@@ -62,7 +62,7 @@ function generate(text: string): string {
 
   function isStringOrBoolean() {
     return (
-      ["String", "Boolean"].find(
+      ["string", "boolean"].find(
         v => text.toLocaleLowerCase().indexOf(v) !== -1
       ) != null
     );
@@ -89,14 +89,14 @@ function generate(text: string): string {
       const texts = cleanText.split(" ");
       const field = texts?.[2] ?? "";
 
-      if (isPrimitives()) {
+      if (isList()) {
+        const type = text.match(/<(.*?)>/)?.[1].toLocaleLowerCase() ?? "";
+        return field + ":" + type + "[]";
+      } else if (isPrimitives()) {
         const type = isStringOrBoolean()
           ? (texts?.[1] ?? "").toLocaleLowerCase()
           : "number";
         return field + ":" + type;
-      } else if (isList()) {
-        const type = text.match(/<(.*?)>/)?.[1] ?? "";
-        return field + ":" + type + "[]";
       } else {
         return field + ":" + (texts?.[1] ?? "");
       }
