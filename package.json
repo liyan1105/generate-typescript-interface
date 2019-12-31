@@ -3,7 +3,7 @@
   "displayName": "generate-typescript-interface",
   "publisher": "liyan1105",
   "description": "covert java class to typescript interface",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.41.0"
   },
