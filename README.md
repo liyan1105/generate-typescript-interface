@@ -4,7 +4,7 @@ covert java data type to typescript interface.
 
 Marketplace Link - https://marketplace.visualstudio.com/items?itemName=liyan1105.generatetypescriptinterface
 
-![](https://user-images.githubusercontent.com/41133584/71400570-25e7a080-261f-11ea-81a2-6c8216cf094b.gif)
+![recording](https://user-images.githubusercontent.com/41133584/71648821-2a5d3900-2d44-11ea-9b7e-18af2a47a9c3.gif)
 
 ## Usage
 
